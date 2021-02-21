@@ -6,6 +6,7 @@ defaults:
       path:            "assets/download/Thuwis_Kobe_CV.pdf"
     values:
       sitemap:         false
+      noindex:         true
       
 plugins:
   - jekyll-sitemap
