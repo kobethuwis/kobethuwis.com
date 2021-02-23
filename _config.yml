@@ -1,12 +1,13 @@
-url: "https://kobethuwis.github.io/"
+title: Kobe Thuwis
+email: kobethuwis26@gmail.com
+description: Creative developer, specialised in AI & robotics.
 
-defaults:
-  -
-    scope:
-      path:            "assets/download/Thuwis_Kobe_CV.pdf"
-    values:
-      sitemap:         false
-      noindex:         true
+baseurl: ""
+url: "https://kobethuwis.github.io/"
+   
+github_username: kobethuwis
+
+url: "https://kobethuwis.github.io/"
       
 plugins:
   - jekyll-sitemap
