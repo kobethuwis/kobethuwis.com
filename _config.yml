@@ -6,8 +6,6 @@ baseurl: ""
 url: "https://kobethuwis.github.io/"
    
 github_username: kobethuwis
-
-url: "https://kobethuwis.github.io/"
       
 plugins:
   - jekyll-sitemap
