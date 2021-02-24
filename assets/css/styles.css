@@ -419,6 +419,8 @@ a.dotted-link:hover {
   .header .profile-image {
     float: none !important;
     margin: 0 auto;
+    visibility: visible;
+    display: block;
   }
   .header .profile-content {
     float: none !important;
@@ -435,9 +437,25 @@ a.dotted-link:hover {
     visibility: hidden;
     display: none;
   }
-  
   .section{
     margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 767.98px) {
+   .profile-image {
+     visibility: hidden;
+     display: none;
+   }
+   
+   .project-image {
+   padding-top: 20px;
+   height:100%
+   }
+   
+   .mobile-hide{
+    visibility: hidden;
+    display: none;
   }
 }
 
@@ -450,4 +468,14 @@ a.dotted-link:hover {
     visibility: visible;
     display: block;
   }
+  .profile-image {
+     visibility: visible;
+     display: block;
+   }
+   
+  .project-image {
+   padding-top: 0px;
+   height: auto;
+   }
+
 }
