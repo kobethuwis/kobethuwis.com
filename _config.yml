@@ -4,7 +4,15 @@ description: I’m a 21 year old AI engineer, researcher and robotics developer.
 
 baseurl: ""
 url: "https://kobethuwis.github.io/"
-   
+
+defaults:
+  -
+    scope:
+      path: "assets/Thuwis_Kobe_CV.pdf"
+    values:
+      sitemap: false
+      noindex: true
+      
 github_username: kobethuwis
       
 plugins:
