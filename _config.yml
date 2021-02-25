@@ -1,18 +1,10 @@
 title: Kobe Thuwis - Creative developer
 email: kobethuwis26@gmail.com
-description: I’m a 21 year old AI engineer, researcher and robotics developer. Programming and working with computers in general has been a passion for quite some time. I’m in love with automation and minimizing repetitive work, which is why I’m able to focus on efficient learning, developing and problem solving. I like switching views, changing approaches and working on highly adaptive projects which often motivates me to study new topics, tackle hard challenges and deliver results.
+description: Creative developer, specialised in AI & robotics.
 
 baseurl: ""
 url: "https://kobethuwis.github.io/"
-
-defaults:
-  -
-    scope:
-      path: "assets/Thuwis_Kobe_CV.pdf"
-    values:
-      sitemap: false
-      noindex: true
-      
+   
 github_username: kobethuwis
       
 plugins:
