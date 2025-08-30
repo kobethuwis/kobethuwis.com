@@ -6,6 +6,32 @@ favicon: /favicon.ico
 url: "https://kobethuwis.com"
    
 github_username: kobethuwis
-      
+
+# Modern Jekyll settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Performance settings
+incremental: true
+future: false
+
+# Plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Kobe Thuwis"
